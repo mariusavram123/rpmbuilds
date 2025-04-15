@@ -43,6 +43,12 @@ systemctl enable mstpd
 mstpctl setforcevers bridge0 rstp
 ```
 
+- Show the ports status on the bridges
+
+```
+mstpctl showbridge
+```
+
 - More documentation:
 
 [Documentation-mstpd](https://software-dl.ti.com/processor-sdk-linux/esd/docs/05_01_00_11/linux/Industrial_Protocols_RSTP.html)
